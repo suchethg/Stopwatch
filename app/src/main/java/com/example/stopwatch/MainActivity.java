@@ -61,17 +61,7 @@ public void runTimer(){
 
 
 }
-public void onPause() {
-    super.onPause();
-    wasRunning = running;
-    running = false;
-}
-public void onResume() {
-    super.onResume();
-    if (wasRunning) {
-        running = true;
-    }
-}
+
 
 
 
